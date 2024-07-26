@@ -29,6 +29,9 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import lime.app.Application;
 import openfl.Assets;
+#if android
+import android.content.Context;
+#end
 
 #if VIDEOS_ALLOWED
 #if (hxCodec >= "3.0.0")
